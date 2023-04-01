@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color:hsl(211, 68%, 94%);
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:1rem;
+    color:grey;
+}
+
+img{
+    height:32px;
+    width:32px;
+}
+
+.not-block{
+    background-color:hsl(0, 0%, 100%);
+    border-radius:2rem;
+    display:flex;
+    flex-direction:column;
+    width:45vw;
+    height:100vh;
+    position:relative;
+    align-items:center;
+    justify-content: center;
+    padding:2rem;
+}
+
+.noti{
+    border-radius:1rem;
+    height:fit-content;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-grow:1;
+    margin-block:0.35rem;
+    background-color: hsl(210, 60%, 98%);
+}
+
+.read{
+    background-color:hsl(0, 0%, 100%);
+}
+
+.post{
+    flex-grow:1;
+    flex-direction: column;
+    gap:2;
+}
+
+.img{
+    padding:1rem;
+}
+
+#ref{
+    background-color:hsl(0, 0%, 100%);
+    border:0.5px solid lightgrey;
+    border-radius:0.5rem;
+    padding:1rem;
+    margin-left:1.25rem;
+    margin-top:1.25rem;
+    margin-bottom: 1.25rem;
+    width:80%;
+    font-size: 15px;
+}
+
+#ref:hover{
+    background-color:hsl(211, 68%, 94%);
+    cursor:pointer;
+}
+#nott{
+    font-size:24px;
+    font-weight:bolder;
+}
+
+#main{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-items:center;
+    padding-top:2rem;
+    padding-inline: 2rem;
+    padding-bottom:1.5rem;
+}
+
+#ref-image{
+    margin-bottom:8rem;
+}
+
+#reff{
+    margin-right:1.5rem;
+}
+#reff:hover{
+    cursor:pointer;
+}
+
+.red-dot{
+    display:inline-block;
+    font-size:8px;
+}
+
+.time{
+    color:lightgrey
+}
+
+.imp{
+    font-weight: bolder;
+    color:black;
+}
+.imp:hover{
+    color:darkblue;
+    cursor:pointer;
+}
+
+#count{
+    background-color: hsl(219, 85%, 26%);
+    color:white;
+    padding-block:0.1rem;
+    padding-inline:0.75rem;
+    border-radius:0.5rem;
+}
+
+.refer{
+    color:grey;
+    font-weight: bolder;
+}
+.refer:hover{
+    color:darkblue;
+    cursor:pointer;
+}
+
+#read-all{
+    color:grey;
+}
+#read-all:hover{
+    color:darkblue;
+    cursor:pointer;
+}
